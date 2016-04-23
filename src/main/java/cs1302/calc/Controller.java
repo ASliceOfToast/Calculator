@@ -166,49 +166,57 @@ public class Controller implements Initializable{
 	public void backspace(ActionEvent event){
 		if (operation.getText().length()==1||operation.getText().equals("OPERATION"))
 			operation.setText("OPERATION");
-		else operation.setText(operation.getText().substring(0,operation.getText().length()-1));
+		else {
+			if(operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals(" ")){
+				if(operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("<")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals(">")){
+					operation.setText(operation.getText().substring(0,operation.getText().length()-4));
+				}
+				else operation.setText(operation.getText().substring(0,operation.getText().length()-3));
+			}
+			else operation.setText(operation.getText().substring(0,operation.getText().length()-1));
+		}
 	}
 
 	public void division(ActionEvent event){
 		if (operation.getText().equals("OPERATION")/*||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals(">>")||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals("<<")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("^")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("/")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("*")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("-")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("+")*/){
 			System.out.println("STOP TRYING TO BREAK EVERYTHING");
 		}
-		else operation.setText(operation.getText()+"/");
+		else operation.setText(operation.getText()+" / ");
 	}
 
 	public void multiplication(ActionEvent event){
 		if (operation.getText().equals("OPERATION")/*||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals(">>")||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals("<<")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("^")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("/")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("*")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("-")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("+")*/){
 			System.out.println("STOP TRYING TO BREAK EVERYTHING");
 		}
-		else operation.setText(operation.getText()+"*");
+		else operation.setText(operation.getText()+" * ");
 	}
 
 	public void subtraction(ActionEvent event){
 		if (operation.getText().equals("OPERATION")/*||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals(">>")||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals("<<")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("^")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("/")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("*")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("-")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("+")*/){
 			System.out.println("STOP TRYING TO BREAK EVERYTHING");
 		}
-		else operation.setText(operation.getText()+"-");
+		else operation.setText(operation.getText()+" - ");
 	}
 
 	public void addition(ActionEvent event){
 		if (operation.getText().equals("OPERATION")/*||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals(">>")||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals("<<")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("^")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("/")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("*")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("-")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("+")*/){
 			System.out.println("STOP TRYING TO BREAK EVERYTHING");
 		}
-		else operation.setText(operation.getText()+"+");
+		else operation.setText(operation.getText()+" + ");
 	}
 
 	public void exponentiation(ActionEvent event){
 		if (operation.getText().equals("OPERATION")/*||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals(">>")||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals("<<")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("^")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("/")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("*")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("-")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("+")*/){
 			System.out.println("STOP TRYING TO BREAK EVERYTHING");
 		}
-		else operation.setText(operation.getText()+"^");
+		else operation.setText(operation.getText()+" ^ ");
 	}
 
 	public void factorial(ActionEvent event){
 		if (operation.getText().equals("OPERATION")/*||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals(">>")||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals("<<")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("^")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("/")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("*")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("-")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("+")*/){
 			System.out.println("STOP TRYING TO BREAK EVERYTHING");
 		}
-		else operation.setText(operation.getText()+"!");
+		else operation.setText(operation.getText()+" ! ");
 	}
 
 	public void calculate(ActionEvent event){
@@ -225,7 +233,7 @@ public class Controller implements Initializable{
 		if (operation.getText().equals("OPERATION")/*||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals(">>")||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals("<<")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("^")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("/")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("*")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("-")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("+")*/){
 			System.out.println("STOP TRYING TO BREAK EVERYTHING");
 		}
-		else operation.setText(operation.getText()+"<<");
+		else operation.setText(operation.getText()+" << ");
 
 	}
 
@@ -233,7 +241,7 @@ public class Controller implements Initializable{
 		if (operation.getText().equals("OPERATION")/*||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals(">>")||operation.getText().substring(operation.getText().length()-2,operation.getText().length()).equals("<<")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("^")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("/")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("*")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("-")||operation.getText().substring(operation.getText().length()-1,operation.getText().length()).equals("+")*/){
 			System.out.println("STOP TRYING TO BREAK EVERYTHING");
 		}
-		else operation.setText(operation.getText()+">>");
+		else operation.setText(operation.getText()+" >> ");
 
 	}
 

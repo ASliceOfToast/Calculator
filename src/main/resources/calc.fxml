@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane stylesheets="calc.css" fx:id="iAmInPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="730.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.cs1302.calc.Controller">
+<AnchorPane fx:id="iAmInPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="730.0" prefWidth="730.0" stylesheets="calc.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.cs1302.calc.Controller">
    <children>
       <Button fx:id="btn1" layoutX="10.0" layoutY="550.0" mnemonicParsing="false" onAction="#btn1Pressed" prefHeight="80.0" prefWidth="80.0" text="1" />
       <Button fx:id="btn0" layoutX="10.0" layoutY="640.0" mnemonicParsing="false" onAction="#btn0Pressed" prefHeight="80.0" prefWidth="80.0" text="0" />
@@ -310,14 +310,14 @@
       <Label layoutX="31.0" layoutY="254.0" text="63" />
       <Label layoutX="370.0" layoutY="254.0" text="47" />
       <Label layoutX="697.0" layoutY="254.0" text="32" />
-      <Label stylesheets="calc.css" fx:id="result" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="135.0" prefHeight="89.0" prefWidth="710.0" text="RESULT">
+      <Label fx:id="result" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="135.0" prefHeight="89.0" prefWidth="710.0" stylesheets="calc.css" text="RESULT">
          <font>
             <Font size="50.0" />
          </font>
       </Label>
-      <Label stylesheets="calc.css" fx:id="operation" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="55.0" prefHeight="80.0" prefWidth="710.0" text="OPERATION">
+      <Label fx:id="operation" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="55.0" prefHeight="80.0" prefWidth="710.0" stylesheets="calc.css" text="OPERATION">
          <font>
-            <Font size="40.0" />
+            <Font size="24.0" />
          </font>
       </Label>
    </children>
