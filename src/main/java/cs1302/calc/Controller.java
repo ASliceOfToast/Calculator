@@ -10,6 +10,7 @@ import java.util.ResourceBundle;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
 import javafx.scene.shape.Rectangle;
+import javafx.scene.image.ImageView;
 
 public class Controller implements Initializable{
 	
@@ -29,7 +30,7 @@ public class Controller implements Initializable{
 	private Button btnRecursion;
 
 	@FXML
-	private Rectangle solidSnakeShit;
+	private ImageView solidSnakeShit;
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources){
@@ -270,10 +271,12 @@ public class Controller implements Initializable{
 		if(visibleBinary){
 			visibleBinary=false;
 			solidSnakeShit.setVisible(true);
+			solidSnakeShit.setMouseTransparent(false);
 		}
 		else{
 			visibleBinary=true;
 			solidSnakeShit.setVisible(false);
+			solidSnakeShit.setMouseTransparent(true);
 		}
 	}
 
