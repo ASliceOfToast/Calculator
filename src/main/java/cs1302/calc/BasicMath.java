@@ -1,4 +1,4 @@
-package cs1302.calc;
+package main.java.cs1302.calc;
 
 /**
  * Provides a basic implementation of the operations defined in the Math

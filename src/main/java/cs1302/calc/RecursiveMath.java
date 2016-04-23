@@ -1,4 +1,4 @@
-package cs1302.calc;
+package main.java.cs1302.calc;
 
 /* Implement the Math interface using recursion here. For each method, replace
  * the throw statement with your implementation.

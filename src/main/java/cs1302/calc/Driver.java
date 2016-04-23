@@ -1,4 +1,4 @@
-package cs1302.calc;
+package main.java.cs1302.calc;
 
 import javafx.fxml.FXMLLoader;
 import javafx.application.Application;
@@ -28,7 +28,8 @@ public class Driver extends Application {
 	} // try
 
         primaryStage.setTitle("CalcFX!");
-	primaryStage.setScene(new Scene(root, 640, 480));
+        primaryStage.setScene(new Scene(root, 730, 730));
+        primaryStage.setResizable(false);
         primaryStage.show();
 
     } // start

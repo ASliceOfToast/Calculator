@@ -1,4 +1,4 @@
-package cs1302.calc;
+package main.java.cs1302.calc;
 
 import java.util.ArrayList;
 import java.util.Collections;
