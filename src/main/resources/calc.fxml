@@ -21,13 +21,13 @@
       <Button fx:id="btn2" layoutX="100.0" layoutY="550.0" mnemonicParsing="false" onAction="#btn2Pressed" prefHeight="80.0" prefWidth="80.0" text="2" />
       <Button fx:id="btn3" layoutX="190.0" layoutY="550.0" mnemonicParsing="false" onAction="#btn3Pressed" prefHeight="80.0" prefWidth="80.0" text="3" />
       <Button fx:id="btnEqual" layoutX="100.0" layoutY="640.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="170.0" text="=" />
-      <Button fx:id="btnDivide" layoutX="280.0" layoutY="364.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="/" />
-      <Button fx:id="btnMultiply" layoutX="280.0" layoutY="460.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="*" />
-      <Button fx:id="btnMinus" layoutX="280.0" layoutY="550.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="-" />
-      <Button fx:id="btnAdd" layoutX="280.0" layoutY="640.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="+" />
-      <Button fx:id="btnFactorial" layoutX="370.0" layoutY="364.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="!" />
+      <Button fx:id="btnDivide" layoutX="280.0" layoutY="364.0" mnemonicParsing="false" onAction="#division" prefHeight="80.0" prefWidth="80.0" text="/" />
+      <Button fx:id="btnMultiply" layoutX="280.0" layoutY="460.0" mnemonicParsing="false" onAction="#multiplication" prefHeight="80.0" prefWidth="80.0" text="*" />
+      <Button fx:id="btnMinus" layoutX="280.0" layoutY="550.0" mnemonicParsing="false" onAction="#subtraction" prefHeight="80.0" prefWidth="80.0" text="-" />
+      <Button fx:id="btnAdd" layoutX="280.0" layoutY="640.0" mnemonicParsing="false" onAction="#addition" prefHeight="80.0" prefWidth="80.0" text="+" />
+      <Button fx:id="btnFactorial" layoutX="370.0" layoutY="364.0" mnemonicParsing="false" onAction="#factorial" prefHeight="80.0" prefWidth="80.0" text="!" />
       <Button fx:id="btnBackspace" layoutX="460.0" layoutY="364.0" mnemonicParsing="false" onAction="#backspace" prefHeight="80.0" prefWidth="80.0" text="&lt;" />
-      <Button fx:id="btnExp" layoutX="370.0" layoutY="460.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="^" />
+      <Button fx:id="btnExp" layoutX="370.0" layoutY="460.0" mnemonicParsing="false" onAction="#exponentiation" prefHeight="80.0" prefWidth="80.0" text="^" />
       <Button fx:id="btnLeftShift" layoutX="460.0" layoutY="460.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="&lt;&lt;" />
       <Button fx:id="btnRightShift" layoutX="550.0" layoutY="460.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0" text="&gt;&gt;" />
       <Button fx:id="btnKillMe" layoutX="640.0" layoutY="460.0" mnemonicParsing="false" onAction="#killMe" prefHeight="80.0" prefWidth="80.0" text="Kill Me" />
