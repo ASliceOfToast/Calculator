@@ -8,3 +8,11 @@
     -fx-font-weight: bold;
     -fx-fill: red;
 }
+
+#operation {
+	-fx-background-color: rgb(78, 245, 232);
+}
+
+#result {
+	-fx-background-color: rgb(180, 253, 11);
+}

@@ -310,12 +310,12 @@
       <Label layoutX="31.0" layoutY="254.0" text="63" />
       <Label layoutX="370.0" layoutY="254.0" text="47" />
       <Label layoutX="697.0" layoutY="254.0" text="32" />
-      <Label fx:id="result" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="135.0" prefHeight="89.0" prefWidth="710.0" text="RESULT">
+      <Label stylesheets="calc.css" fx:id="result" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="135.0" prefHeight="89.0" prefWidth="710.0" text="RESULT">
          <font>
             <Font size="50.0" />
          </font>
       </Label>
-      <Label fx:id="operation" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="55.0" prefHeight="80.0" prefWidth="710.0" text="OPERATION">
+      <Label stylesheets="calc.css" fx:id="operation" alignment="CENTER_RIGHT" layoutX="10.0" layoutY="55.0" prefHeight="80.0" prefWidth="710.0" text="OPERATION">
          <font>
             <Font size="40.0" />
          </font>
