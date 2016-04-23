@@ -9,9 +9,13 @@ import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Label;
+import javafx.scene.shape.Rectangle;
 
 public class Controller implements Initializable{
 	
+	boolean useIterative = true;
+	boolean visibleBinary = true;
+
 	@FXML
 	private Label b0;
 
@@ -20,6 +24,12 @@ public class Controller implements Initializable{
 
 	@FXML
 	private Label operation;
+
+	@FXML
+	private Button btnRecursion;
+
+	@FXML
+	private Rectangle solidSnakeShit;
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources){
@@ -245,5 +255,26 @@ public class Controller implements Initializable{
 
 	}
 
+	public void recursion(ActionEvent event){
+		if(useIterative){
+			useIterative=false;
+			btnRecursion.setText("Use Iterative");
+		}
+		else{
+			useIterative=true;
+			btnRecursion.setText("Use Recursion");
+		}
+	}
+
+	public void datSolidSnakeShit(ActionEvent event){
+		if(visibleBinary){
+			visibleBinary=false;
+			solidSnakeShit.setVisible(true);
+		}
+		else{
+			visibleBinary=true;
+			solidSnakeShit.setVisible(false);
+		}
+	}
 
 }
