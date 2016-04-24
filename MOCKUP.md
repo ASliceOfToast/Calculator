@@ -2,11 +2,11 @@
 
 ## Main GUI
 
-You can include your image, as follows:
+Original Design plan:
 
 ![GUI Mockup 1](http://oi64.tinypic.com/2zrkn0z.jpg)
 
-Original design plan. 'Kill me' button exits out of the calculator.
+ 'Kill me' button exits out of the calculator. Everything else pretty explanatory.
 
 ## Additional Interface Elements
 
