@@ -362,12 +362,29 @@ public class Controller implements Initializable{
 	 */
 	public void calculate(ActionEvent event){
 		//fact, exp, mul, div, add, sub
-		String[] postFixArray;
+		/*String[] postFixArray;
 		String[] fuck = new String[entered.size()];
 		fuck = entered.toArray(fuck);
 		postFixArray=ReversePolishNotation.infixToPostfix(fuck);
 		if(useIterative){
 			result.setText(""+ReversePolishNotation.evaluate(iterativeMath,postFixArray));
+		}
+		else{
+			result.setText(""+ReversePolishNotation.evaluate(recursiveMath,postFixArray));
+		}*/
+
+		String[] fuck = operation.getText().split(" ");
+		String[] postFixArray=ReversePolishNotation.infixToPostfix(fuck);
+		if(useIterative){
+			try{
+				try{
+					result.setText(""+ReversePolishNotation.evaluate(iterativeMath,postFixArray));
+				} catch (ArithmeticException e){
+					result.setText("MATH ERROR");
+				}
+			} catch (MalformedPostfixException e){
+				result.setText("FORMAT ERROR");
+			}
 		}
 		else{
 			result.setText(""+ReversePolishNotation.evaluate(recursiveMath,postFixArray));
