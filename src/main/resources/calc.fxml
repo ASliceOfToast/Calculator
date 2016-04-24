@@ -48,9 +48,9 @@
         </rowConstraints>
          <children>
             <Label fx:id="b31" text="0" />
-            <Label fx:id="b30" text="0" GridPane.columnIndex="1" />
-            <Label fx:id="b29" text="0" GridPane.columnIndex="2" />
-            <Label fx:id="b28" text="0" GridPane.columnIndex="3" />
+            <Label fx:id="b30" onMouseClicked="#b30" text="0" GridPane.columnIndex="1" />
+            <Label fx:id="b29" onMouseClicked="#b29" text="0" GridPane.columnIndex="2" />
+            <Label fx:id="b28" onMouseClicked="#b28" text="0" GridPane.columnIndex="3" />
          </children>
       </GridPane>
       <GridPane layoutX="100.0" layoutY="294.0" prefHeight="20.0" prefWidth="80.0">
@@ -64,10 +64,10 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Label fx:id="b27" text="0" />
-            <Label fx:id="b26" text="0" GridPane.columnIndex="1" />
-            <Label fx:id="b25" text="0" GridPane.columnIndex="2" />
-            <Label fx:id="b24" text="0" GridPane.columnIndex="3" />
+            <Label fx:id="b27" onMouseClicked="#b27" text="0" />
+            <Label fx:id="b26" onMouseClicked="#b26" text="0" GridPane.columnIndex="1" />
+            <Label fx:id="b25" onMouseClicked="#b25" text="0" GridPane.columnIndex="2" />
+            <Label fx:id="b24" onMouseClicked="#b24" text="0" GridPane.columnIndex="3" />
          </children>
       </GridPane>
       <GridPane layoutX="190.0" layoutY="294.0" prefHeight="20.0" prefWidth="80.0">
@@ -81,10 +81,10 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Label fx:id="b23" text="0" />
-            <Label fx:id="b22" text="0" GridPane.columnIndex="1" />
-            <Label fx:id="b21" text="0" GridPane.columnIndex="2" />
-            <Label fx:id="b20" text="0" GridPane.columnIndex="3" />
+            <Label fx:id="b23" onMouseClicked="#b23" text="0" />
+            <Label fx:id="b22" onMouseClicked="#b22" text="0" GridPane.columnIndex="1" />
+            <Label fx:id="b21" onMouseClicked="#b21" text="0" GridPane.columnIndex="2" />
+            <Label fx:id="b20" onMouseClicked="#b20" text="0" GridPane.columnIndex="3" />
          </children>
       </GridPane>
       <GridPane layoutX="280.0" layoutY="294.0" prefHeight="20.0" prefWidth="80.0">
@@ -98,10 +98,10 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Label fx:id="b19" text="0" />
-            <Label fx:id="b18" text="0" GridPane.columnIndex="1" />
-            <Label fx:id="b17" text="0" GridPane.columnIndex="2" />
-            <Label fx:id="b16" text="0" GridPane.columnIndex="3" />
+            <Label fx:id="b19" onMouseClicked="#b19" text="0" />
+            <Label fx:id="b18" onMouseClicked="#b18" text="0" GridPane.columnIndex="1" />
+            <Label fx:id="b17" onMouseClicked="#b17" text="0" GridPane.columnIndex="2" />
+            <Label fx:id="b16" onMouseClicked="#b16" text="0" GridPane.columnIndex="3" />
          </children>
       </GridPane>
       <GridPane layoutX="370.0" layoutY="294.0" prefHeight="20.0" prefWidth="80.0">
@@ -115,10 +115,10 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Label fx:id="b15" text="0" />
-            <Label fx:id="b14" text="0" GridPane.columnIndex="1" />
-            <Label fx:id="b13" text="0" GridPane.columnIndex="2" />
-            <Label fx:id="b12" text="0" GridPane.columnIndex="3" />
+            <Label fx:id="b15" onMouseClicked="#b15" text="0" />
+            <Label fx:id="b14" onMouseClicked="#b14" text="0" GridPane.columnIndex="1" />
+            <Label fx:id="b13" onMouseClicked="#b13" text="0" GridPane.columnIndex="2" />
+            <Label fx:id="b12" onMouseClicked="#b12" text="0" GridPane.columnIndex="3" />
          </children>
       </GridPane>
       <GridPane layoutX="460.0" layoutY="294.0" prefHeight="20.0" prefWidth="80.0">
@@ -132,10 +132,10 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Label fx:id="b11" text="0" />
-            <Label fx:id="b10" text="0" GridPane.columnIndex="1" />
-            <Label fx:id="b9" text="0" GridPane.columnIndex="2" />
-            <Label fx:id="b8" text="0" GridPane.columnIndex="3" />
+            <Label fx:id="b11" onMouseClicked="#b11" text="0" />
+            <Label fx:id="b10" onMouseClicked="#b10" text="0" GridPane.columnIndex="1" />
+            <Label fx:id="b9" onMouseClicked="#b9" text="0" GridPane.columnIndex="2" />
+            <Label fx:id="b8" onMouseClicked="#b8" text="0" GridPane.columnIndex="3" />
          </children>
       </GridPane>
       <GridPane layoutX="550.0" layoutY="294.0" prefHeight="20.0" prefWidth="80.0">
@@ -149,10 +149,10 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Label fx:id="b7" text="0" />
-            <Label fx:id="b6" text="0" GridPane.columnIndex="1" />
-            <Label fx:id="b5" text="0" GridPane.columnIndex="2" />
-            <Label fx:id="b4" text="0" GridPane.columnIndex="3" />
+            <Label fx:id="b7" onMouseClicked="#b7" text="0" />
+            <Label fx:id="b6" onMouseClicked="#b6" text="0" GridPane.columnIndex="1" />
+            <Label fx:id="b5" onMouseClicked="#b5" text="0" GridPane.columnIndex="2" />
+            <Label fx:id="b4" onMouseClicked="#b4" text="0" GridPane.columnIndex="3" />
          </children>
       </GridPane>
       <GridPane layoutX="640.0" layoutY="294.0" prefHeight="20.0" prefWidth="80.0">
@@ -166,10 +166,10 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Label fx:id="b3" text="0" />
-            <Label fx:id="b2" text="0" GridPane.columnIndex="1" />
-            <Label fx:id="b1" text="0" GridPane.columnIndex="2" />
-            <Label fx:id="b0" text="0" GridPane.columnIndex="3" />
+            <Label fx:id="b3" onMouseClicked="#b3" text="0" />
+            <Label fx:id="b2" onMouseClicked="#b2" text="0" GridPane.columnIndex="1" />
+            <Label fx:id="b1" onMouseClicked="#b1" text="0" GridPane.columnIndex="2" />
+            <Label fx:id="b0" onMouseClicked="#b0" text="0" GridPane.columnIndex="3" />
          </children>
       </GridPane>
       <Label layoutX="10.0" layoutY="314.0" text="31" />
