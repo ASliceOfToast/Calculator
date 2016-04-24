@@ -1,4 +1,4 @@
-package cs1302.calc;
+package main.java.cs1302.calc;
 
 /**
  * Implements various mathematical operations over non-negative integers using recursive methods.
